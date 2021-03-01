@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap');
+
+body{
+
+	font-family: raleway;
+	font-weight: 600px;
+}
+
+main{
+    min-height: 400px;
+
+}
+
+@media (min-width: 574px){
+
+	main{
+		background-color: tomato;
+	}
+
+}
+
+@media (max-width:768px){
+
+	main{
+		background-color: #a8a8a8;
+	}
+
+}
+
+@media (min-width:968px){
+
+	main{
+		background-color: #ccc;
+	}
+
+}
+
+
+
